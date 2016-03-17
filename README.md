@@ -1,9 +1,11 @@
 Install Dependencies
 ---
 
-sudo apt-get update
-sudo apt-get install mailutils
-sudo apt-get install sendmail
+The following are dependencies.
+
+$ sudo apt-get update
+$ sudo apt-get install mailutils
+$ sudo apt-get install sendmail
 
 Check whether the command works
 ---
@@ -39,3 +41,9 @@ Removal
 If you ever want to remove the script from start-up, run the following command:
 
 	$ sudo update-rc.d -f ip_mailer.sh remove 
+	
+To Do
+---
+
+- Figure way out to ensure it runs without login. (Is this even possible)
+- Sort the dependencies. Do we really need this many.
