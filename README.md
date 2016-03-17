@@ -3,16 +3,16 @@ Install Dependencies
 
 The following are dependencies.
 
-$ sudo apt-get update
-$ sudo apt-get install mailutils
-$ sudo apt-get install sendmail
+	$ sudo apt-get update
+	$ sudo apt-get install mailutils
+	$ sudo apt-get install sendmail
 
 Check whether the command works
 ---
 
 Run this command
 
-$ ifconfig | mailx -s "Hello from your Raspberry Pi" yourmail@gmail.com
+	$ ifconfig | mailx -s "Hello from your Raspberry Pi" yourmail@gmail.com
 
 Replace yourmail@gmail.com with your email address.
 
