@@ -24,7 +24,7 @@ Easiest way would be
 	
 	$ curl --remote-name https://raw.githubusercontent.com/gapo/RPi-IP-mailer/master/ip_mailer.sh
 	$ sudo mv ip_mailer.sh /etc/init.d/.
-	$ sudo chmod 755 /etc/init.d/ip_mailer.sh
+	$ sudo chmod 700 /etc/init.d/ip_mailer.sh
 
 Adding to the Pi
 ---
