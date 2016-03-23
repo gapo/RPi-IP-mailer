@@ -26,6 +26,17 @@ Easiest way would be
 	$ sudo mv ip_mailer.sh /etc/init.d/.
 	$ sudo chmod 700 /etc/init.d/ip_mailer.sh
 
+Configuring /etc/hosts file
+---
+
+Edit your /etc/hosts file to ensure the first line is as below. If this is not set correct, sendmail does not work. 
+
+	$ sudo vim /etc/hosts
+	
+Replace HOSTNAME with your hostname, The first line should be
+
+	127.0.0.1    localhost.localdomain   HOSTNAME
+
 Adding to the Pi
 ---
 
@@ -38,7 +49,7 @@ Register script to be run at startup:
 ENABLING AUTO-LOGIN (FOR HEADLESS OPERATION)
 ---
 
-> This method works in headless configuration, only if you enable autologin.
+> This is no longer required.
 
 Edit the inittab file:
 
