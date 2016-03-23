@@ -22,7 +22,7 @@ function ping_check
 # Main Starts
 while true; do
 		if ping_check "1"; then
-			ifconfig | mailx -s "Hello from your Raspberry Pi" gautham.go@gmail.com
+			ifconfig | mailx -s "Hello from your Raspberry Pi" EDITTHIS@gmail.com
 			break
 		else
 			sleep 20
